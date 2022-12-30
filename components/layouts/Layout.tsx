@@ -18,7 +18,7 @@ export const Layout: React.FC<Props> = ({ children, title = 'Pokemon App' }) => 
 
         <meta property="og:title" content={title} />
         <meta property="og:description" content={`Esta es una página sobre ${title}`} />
-        <meta property="og:image" content={`${origin}/img/banner/.png`} />
+        <meta property="og:image" content={`${origin}/img/banner.png`} />
         <title>{title}</title>
       </Head>
       <Navbar />
